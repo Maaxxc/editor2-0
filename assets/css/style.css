@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    background-image:url(./wallpaperflare.com_wallpaper.jpg); 
+}
+
+
+#container-geral {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+    max-width: 100%;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+
+
+
+#cabecalho {
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    padding: 10px;
+}
+
+#form-cabecalho {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#menu {
+    gap: 10px;
+    flex-direction: column;
+}
+
+
+.botoes-site-geral {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 42px;
+    margin-bottom: 20px;
+}
+
+#container-site--gerado {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+#container-controles {
+    width: 45%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container-controles {
+    text-align: center;
+}
+
+
+#galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+    justify-content: flex-start; 
+}
+
+#gerar-controle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.campo-editor {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.input-style-main::placeholder {
+    color: var(--placeholder-color, #868686); 
+}
+
+.botoes-gerar-controles {
+    background-color: #0BACF4;
+    padding: 12px;
+    border-radius: 10px;
+    border :none;
+    font-weight: 600;
+   color: white;
+   cursor: pointer;
+}
+
+.btn-salvar--excluir--controles {
+    background-color: #ffffff;
+    padding: 12px;
+    border-radius: 10px;
+    border : #0BACF4 solid 2px;
+    font-weight: 600;
+   color: #0BACF4;
+   cursor: pointer;
+}
+
+.botoes-gerar-controles2 {
+    background-color: #0BACF4;
+    padding: 12px;
+    border-radius: 10px;
+    border :none;
+    font-weight: 600;
+   color: white;
+   cursor: pointer;
+}
+
+.gerar-controles-cabecalho {
+    display: flex;
+    gap : 80px;
+}
+
+.input-style-main {
+    padding: 10px;
+    border-radius: 10px;
+    border: #0BACF4 solid 1px;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+
+.label-style-main {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
